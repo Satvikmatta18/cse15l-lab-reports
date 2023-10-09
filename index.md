@@ -3,7 +3,6 @@
 ls Command
     1. No arguements 
 
-![Image](http://cse15l-lab-reports/ls.png
-)
+![Image](http://cse15l-lab-reports/ls.png)
 
 

@@ -96,7 +96,6 @@
 
 * Explanation: This command displays the contents of the file hi.txt. Hello World! in hindi हैलो वर्ल्ड!is displayed
 
-
-
+![Image](cat.png)
 
 

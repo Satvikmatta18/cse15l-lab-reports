@@ -1,46 +1,91 @@
 # LAB REPORT 1 
 
-Cd Command
+CD COMMAND:
 
------ No arguements ----
-* The working directory -- cse15l-week 1 
-* The output of ls with no arguements will list the files in the current working directory, in this case being lecture1.
-* The output is not an error, lecture 1 is displayed.   
+------- 1. Using cd with no arguments --------
 
------ Path to a directory -----
-* The working directory -- lecture1
-* The output of ls lecture1 will list the files in the directory, in this case being Hello.class, Hello.java, messages, and README. 
-* The output is not an error, the files are displayed. 
+Command: cd
 
------ Path to a file -----
-* The working directory -- messages
-* The outpout of ls lecture1/messsages/hi.txt is Hello World! in hindi हैलो वर्ल्ड! .
-* The outpute is not an error, the text in the file is displayed.
+Working Directory: cse15l-week 1
+
+Explanation: Running cd with no arguments does not change the current working directory, so it remains as cse15l-week 1.
 
 
 
+--------2. Using cd with a path to a directory as an argument--------
+
+Command: cd lecture1
+
+Working Directory: lecture 1 
+
+Explanation: This command changes the current working directory to lecture1.
 
 
+-------- 3. Using cd with a path to a file as an argument (error) --------
+
+Command: cd lecture1/messages/hi.txt
+
+Working Directory: messages
+
+Explanation: This is an error because cd is used to change directories, not open files. It's not possible to change the working directory to a file.
+
+##ls Command:
+
+-------- 1. Using ls with no arguments --------
+
+Command: ls
+
+Working Directory: cse15l-week 1
+
+Explanation: This command lists the files and directories in the current working directory cse15l-week 1.
 
 
+-------- 2. Using ls with a path to a directory as an argument --------
 
-ls Command
+Command: ls lecture1
 
------ No arguements ----
-* The working directory -- cse15l-week 1 
-* The output of ls with no arguements will list the files in the current working directory, in this case being lecture1.
-* The output is not an error, lecture 1 is displayed.   
+Working Directory: lecture1
 
------ Path to a directory -----
-* The working directory -- lecture1
-* The output of ls lecture1 will list the files in the directory, in this case being Hello.class, Hello.java, messages, and README. 
-* The output is not an error, the files are displayed.
-  
------ Path to a file -----
-* The working directory -- messages
-* The outpout of ls lecture1/messsages/hi.txt is Hello World! in hindi हैलो वर्ल्ड! .
-* The outpute is not an error, the text in the file is displayed.
+Explanation: This command lists the files and directories in the specified directory lecture1.
 
+
+-------- 3. Using ls with a path to a file as an argument -------- 
+
+Command: ls messages/hi.txt
+
+Working Directory: messages
+
+Explanation: This lists the file messages/hi.txt. The file is treated as a single item in the listing. Hello World! in hindi हैलो वर्ल्ड!is displayed.
+
+
+##cat Command:
+
+
+-------- 1. Using cat with no arguments (waiting for input) --------
+
+Command: cat
+
+Working Directory: cse15l-week 1
+
+Explanation: This command waits for user input from the keyboard. It does not display any file content until you start typing or provide input.
+
+
+-------- 2. Using cat with a path to a directory as an argument (error) -------- 
+
+Command: cat Lecture1
+
+Working Directory: cse15l-week 1
+
+Explanation: This is an error because cat is used to display the contents of files, not directories. You cannot use cat to display the contents of a directory.
+
+
+-------- 3. Using cat with a path to a file as an argument -------- 
+
+Command: cat messages/hi.txt
+
+Working Directory: /home/user/workspace
+
+Explanation: This command displays the contents of the file hi.txt. Hello World! in hindi हैलो वर्ल्ड!is displayed
 
 
 

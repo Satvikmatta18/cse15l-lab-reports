@@ -29,6 +29,9 @@
 
 * Explanation: This is an error because cd is used to change directories, not open files. It's not possible to change the working directory to a file.
 
+![Image](cd.png)
+
+
 
 ## lS COMMAND:
 

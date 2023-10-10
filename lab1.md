@@ -29,7 +29,8 @@ Working Directory: messages
 
 Explanation: This is an error because cd is used to change directories, not open files. It's not possible to change the working directory to a file.
 
-##ls Command:
+
+lS COMMAND:
 
 -------- 1. Using ls with no arguments --------
 
@@ -58,7 +59,7 @@ Working Directory: messages
 Explanation: This lists the file messages/hi.txt. The file is treated as a single item in the listing. Hello World! in hindi हैलो वर्ल्ड!is displayed.
 
 
-##cat Command:
+CAT COMMAND:
 
 
 -------- 1. Using cat with no arguments (waiting for input) --------

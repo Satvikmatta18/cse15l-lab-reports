@@ -127,6 +127,8 @@ This setup is designed to handle incoming HTTP requests to the server's endpoint
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/218e6339-d528-436f-8662-a9fc7d480c70)
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/ba317fd5-b8d7-445f-bdc1-537a70abd279)
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/70abe46d-9641-41b7-93ae-2535e7e39522)
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/1d08a3d5-d97b-4782-a7a9-317cfd008cf1)
 
+In weeks 2 and 3, I learned a multitude of practical command-line functionalities and server-related operations. I gained knowledge in SSH login to a remote server, starting a server via Java compilation and execution. Additionally, I learned to access URLs through curl, understand paths and queries, establish SSH keys for convenient access, utilize commands such as mkdir, scp, and man. Moreover, I acquired the ability to create a string server in Java to concatenate strings based on requests, like adding a new line along with a sequence number and text, displaying the cumulative strings in sequential order.
 
 

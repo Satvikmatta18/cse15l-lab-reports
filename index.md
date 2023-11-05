@@ -100,4 +100,33 @@
 
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/3fe9b0c0-b68e-410d-8b69-6b85be77fd93)
 
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/af1cc675-ae13-4c47-881b-7827f49c1939)
+
+In the provided code:
+
+**Methods called:**
+
+1. In the `StringHandler` class, the `handleRequest` method is invoked. This occurs when an incoming request is processed by the server. The `handleRequest` method is responsible for handling the HTTP request and generating an appropriate response based on the request parameters.
+
+**Relevant arguments and field values:**
+
+- **Relevant Arguments:** The `handleRequest` method takes a single argument of type `URI` named `url`. This argument represents the Uniform Resource Identifier and is used to extract the query information from the request.
+
+- **Field Values:** The `StringHandler` class contains a private field `messages`, which is a list of strings (`ArrayList<String>`). This list (`messages`) holds the messages sent to the server. Upon receiving a valid request with the "add-message?s=" query, a new message is added to this list.
+
+**Changes in the relevant fields:**
+
+Upon the specific request "/add-message?s=Hello":
+
+- The `messages` field in the `StringHandler` class changes. The new message "Hello" is added to the `messages` list, incrementing its size by one. For example, the initial list might be empty, but after this specific request, it will contain a single element with the value "Hello".
+
+**Note:** The `synchronized` block in the `StringHandler` class ensures that concurrent threads can safely access and modify the `messages` list, preventing potential issues that could arise from multiple threads trying to modify the list simultaneously.
+
+This setup is designed to handle incoming HTTP requests to the server's endpoint `/add-message?s=` by adding a new message to the list and generating a response showing the numbered list of all messages received so far.
+
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/218e6339-d528-436f-8662-a9fc7d480c70)
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/ba317fd5-b8d7-445f-bdc1-537a70abd279)
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/70abe46d-9641-41b7-93ae-2535e7e39522)
+
+
 

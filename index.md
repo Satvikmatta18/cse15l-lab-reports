@@ -106,6 +106,8 @@ In the provided code:
 
 **Methods called:**
 
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/b8f3d91b-6cd1-4292-821e-433894b3c447)
+
 1. In the `StringHandler` class, the `handleRequest` method is invoked. This occurs when an incoming request is processed by the server. The `handleRequest` method is responsible for handling the HTTP request and generating an appropriate response based on the request parameters.
 
 **Relevant arguments and field values:**

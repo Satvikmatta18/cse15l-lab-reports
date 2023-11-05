@@ -3,7 +3,8 @@
 ## Part 1
 
 
-![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/3fe9b0c0-b68e-410d-8b69-6b85be77fd93)
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/ae278e9c-85c2-4049-b72a-d87b561b944d)
+
 
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/af1cc675-ae13-4c47-881b-7827f49c1939)
 

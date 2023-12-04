@@ -121,18 +121,21 @@ The original issue was caused by the loop condition, which incorrectly traversed
 ## Step 6 
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/0674f517-0e64-4539-ae34-c335d8963420)
 
- First, I used the Vim command to access `ListExamples.java`. Then, I used the <kbd>J</kbd> key to navigate down to line 44. Next, I pressed the <kbd>L</kbd> key to move to column 1. After that, I used the <kbd>x</kbd> key to delete the '1' at index1. Using the <kbd>i</kbd> key, I inserted '2', changing 'index1' to 'index2'. Finally, I used the <kbd>:wq</kbd> keys to save and exit.
 
 ## Step 7
 
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/19d8c4e6-9802-4d2c-981a-4de73c5f498d)
+
+ First, I used the Vim command to access `ListExamples.java`. Then, I used the <kbd>J</kbd> key to navigate down to line 44. Next, I pressed the <kbd>L</kbd> key to move to column 1. After that, I used the <kbd>x</kbd> key to delete the '1' at index1. Using the <kbd>i</kbd> key, I inserted '2', changing 'index1' to 'index2'. Finally, I used the <kbd>:wq</kbd> keys to save and exit.
 
 ## Step 8  
 
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/9000ff1b-74bd-4ae5-ae62-d87c950ebc00)
 
 
+## Step 9
 
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/71a931b2-3561-477a-a9ef-1ce5aa4ae856)
 
 
 

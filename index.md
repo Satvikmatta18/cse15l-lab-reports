@@ -108,7 +108,7 @@ The original issue was caused by the loop condition, which incorrectly traversed
 
 
 ---
-# LAB REPORT 3
+# LAB REPORT 4
 
 ## Step 4
 
@@ -119,6 +119,7 @@ The original issue was caused by the loop condition, which incorrectly traversed
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/6159fbc7-9903-4810-8767-74a7ad1ea7a0)
 
 ## Step 6 
+![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/0674f517-0e64-4539-ae34-c335d8963420)
 
  First, I used the Vim command to access `ListExamples.java`. Then, I used the <kbd>J</kbd> key to navigate down to line 44. Next, I pressed the <kbd>L</kbd> key to move to column 1. After that, I used the <kbd>x</kbd> key to delete the '1' at index1. Using the <kbd>i</kbd> key, I inserted '2', changing 'index1' to 'index2'. Finally, I used the <kbd>:wq</kbd> keys to save and exit.
 
@@ -129,6 +130,7 @@ The original issue was caused by the loop condition, which incorrectly traversed
 ## Step 8  
 
 ![image](https://github.com/Satvikmatta18/cse15l-lab-reports/assets/106504471/9000ff1b-74bd-4ae5-ae62-d87c950ebc00)
+
 
 
 

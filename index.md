@@ -108,6 +108,39 @@ The original issue was caused by the loop condition, which incorrectly traversed
 
 
 ---
+---
+---
+---
+---
+---
+---
+
+---
+---
+
+---
+
+------
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
+---
+---
+
+---
+
+------
+---
+---
+---
 # LAB REPORT 4
 
 ## Step 4

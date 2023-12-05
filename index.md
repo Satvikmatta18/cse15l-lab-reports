@@ -203,8 +203,6 @@ Hey,
 
 I've been working on a simple Java program that takes two numbers from the user and calculates their quotient. However, something weird is going on. Check out this screenshot:
 
-![Division Dilemma Screenshot](link-to-screenshot.png)
-
 Here's the relevant part of my code:
 
 ```java
